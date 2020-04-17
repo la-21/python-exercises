@@ -2,20 +2,12 @@
 
 ## Exercise 1: Write a while loop that starts at the last character in the string and works its way backwards to the first character in the string, printing each letter on a separate line, except backwards.
 
-fruit = 'banana'
-rev_str = []
-index = len(fruit)
-while index > 0:
-    rev_str += fruit[index - 1]
+index = 0
+fruit = 'watermelon'
+while index < len(fruit):
     index = index - 1
-print(rev_str)
-
-# OR 
-
-fruit = 'apple'
-length = len(fruit)
-sliced_str = fruit[length::-1]
-print(sliced_str)
+    fruity = (fruit[index])
+    print(fruity)
 
 ## Exercise 2: Given that fruit is a string, what does fruit[:] mean?
 
